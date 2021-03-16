@@ -1,3 +1,12 @@
+@keyframes fadein {
+	0%{
+		transform: scale(0) rotate(0deg);
+	}
+	100%{
+		transform: scale(1) rotate(0.1deg);  
+	}
+}
+
 body {
 	background-image: url("../images/rainbow.png");
 	-webkit-background-size: cover;
@@ -15,6 +24,8 @@ h1.Header {
 	top: 50%;
 	width: 100%;
 	font-size: 600%;
+	animation-name: fadein;
+	animation-duration: 1s;
 }
 
 p.WTimer {
@@ -25,7 +36,9 @@ p.WTimer {
 	text-align: center;
 	top: 50%;
 	width: 100%;
-	font-size: 1000%
+	font-size: 1000%;
+	animation-name: fadein;
+	animation-duration: 1s;
 }
 
 .navbar {
