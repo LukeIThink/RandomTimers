@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>hi<h1>
-  </body>
+<Html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:description" content="Welcome! This is a website that has timers for different things, such as the weekend!">
+		<link rel='stylesheet', href='/stylesheets/main.css'>
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<script src='/javascripts/main.js'></script>
+	</head>
+	<body onload="start()">
+		<h1 class="Header">Current time</h1>
+		<p class="CurrentTime", id="CTime">Please wait...</p>
+		<p class="Msg", id="Message"></p>
+		<div class="navbar">
+			<a href="/">Home</a>
+			<a href="/info">Info (WIP)</a>
+			<a href="/weekend">Weekend timer</a>
+		</div>
+	</body>
 </html>

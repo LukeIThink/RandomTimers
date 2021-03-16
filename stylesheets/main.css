@@ -1,0 +1,74 @@
+body {
+	background-image: url("../images/paper.gif");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin:0;
+}
+
+h1.Header {
+	left: 0;
+	line-height: 200px;
+	margin-top: -300px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	font-size: 600%;
+}
+
+p.CurrentTime {
+	left: 0;
+	line-height: 200px;
+	margin-top: -100px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	font-size: 1000%;
+}
+
+p.Msg {
+	left: 0;
+	line-height: 200px;
+	margin-top: 0px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	font-size: 300%
+}
+
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+  }
+  
+.navbar a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  
+.navbar a:hover {
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+
+* {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
