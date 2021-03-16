@@ -15,6 +15,7 @@ function getSec() {
 
 function getM() {
 	var today = new Date();
+	var hour = today.getHours() - (today.getHours() < 13 ? 0 : 24);
 	return(getHour() <= 12 ? "A" : "P");
 };
 
