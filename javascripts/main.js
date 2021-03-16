@@ -15,8 +15,7 @@ function getSec() {
 
 function getM() {
 	var today = new Date();
-	var hour = today.getHours() - (today.getHours() < 13 ? 0 : 24);
-	console.log(hour);
+	var hour = today.getHours() - (today.getHours() < 13 ? 0 : 2);
 	return(hour <= 12 ? "A" : "P");
 };
 
@@ -33,7 +32,7 @@ function getTime() {
 
 function getMessage() {
 	var date = new Date()
-	var hour = date.getHours() - (date.getHours() < 13 ? 0 : 24)
+	var hour = date.getHours() - (date.getHours() < 13 ? 0 : 2)
 	if (date.getMinutes() <= 30 && hour == 0 ) { 
 		return ("You made it to midnight, nice job") 
 	}else if (date.getMinutes() >= 30 && hour == 23) {
