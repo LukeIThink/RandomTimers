@@ -16,6 +16,11 @@ h1.Header {
 	top: 50%;
 	width: 100%;
 	font-size: 600%;
+	-webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
 }
 
 p.CurrentTime {
@@ -27,6 +32,11 @@ p.CurrentTime {
 	top: 50%;
 	width: 100%;
 	font-size: 1000%;
+	-webkit-transition: opacity 3s ease-in;
+    -moz-transition: opacity 3s ease-in;
+    -o-transition: opacity 3s ease-in;
+    -ms-transition: opacity 3s ease-in;
+    transition: opacity 3s ease-in;
 }
 
 p.Msg {
