@@ -72,6 +72,15 @@ p.Msg {
 	padding: 14px 16px;
 	text-decoration: none;
 }
+
+.navbar a.what {
+	float: right;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
   
 .navbar a:hover {
 	background: rgb(255, 255, 255);
