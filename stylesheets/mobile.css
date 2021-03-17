@@ -8,12 +8,12 @@ body {
 
 h1.InvalidD {
 	line-height: 200px;
-	margin-top: -300px;
+	margin-top: -200px;
 	position: absolute;
 	text-align: center;
 	top: 50%;
 	width: 100%;
-	font-size: 100%;
+	font-size: 300%;
 }
 
 p.InvalidPermissions {
@@ -23,7 +23,7 @@ p.InvalidPermissions {
 	text-align: center;
 	top: 50%;
 	width: 100%;
-	font-size: 50%;
+	font-size: 300%;
 }
 
 * {
