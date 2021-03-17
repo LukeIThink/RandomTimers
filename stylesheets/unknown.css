@@ -12,3 +12,22 @@ video.unknown {
 	top: 50%;
 	left: 50%;
 }
+
+h1.lel {
+	left: 0;
+	line-height: 200px;
+	margin-top: -350px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 100%;
+	font-size: 300%;
+}
+
+* {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
